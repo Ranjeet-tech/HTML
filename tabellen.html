@@ -2,11 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="website.css">
     <title>mijn eerste website</title>
+
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="index.html">homepage</a> </li>
+              <li><a href="gokken.html">gok artikel</a></li>
+              <li><a href=tabellen.html>tabellenopdracht</a></li>
+              <li><a href="website.html">website</a> </li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>tabellen</h1><br><br>
+    <h1>tabellen</h1><br>
 
     <h3>hier een voorbeeld van een simpele tabel</h3>
 
@@ -65,34 +77,46 @@
     <h3>2.</h3>
     <table border="1">
         <tr>
-            <td rowspan="3">1</td>
-            <td rowspan="1,5">2</td>
-            <td>3</td>
+            <td rowspan="6">1</td>
+            <td rowspan="3">2</td>
+            <td rowspan="2">3</td>
         </tr>
+        <tr></tr>
         <tr>
-            <td rowspan="2">5</td>
-            <td>4</td>
+            <td rowspan="2">4</td>
         </tr>
+        <tr><td rowspan="3">5</td></tr>
         <tr>
-            <td>6</td>
+            <td rowspan="2">6</td>
         </tr>
+        <tr></tr>
 
     </table>
 
     <h3>3.</h3>
-    <table border="1">
 
-    </table>
+     <table border="1" style="width: 300px">
+         <tr>
+             <td rowspan="2" style="width: 50%">1</td>
+             <td style="width: 25%">2</td>
+             <td>3</td>
+         </tr>
+         <tr>
+             <td colspan="2" rowspan="4">2</td>
+         </tr>
+         <tr>
+             <td rowspan="2">1</td>
+         </tr>
+         <tr></tr>
+         <tr>
+             <td rowspan="2">1</td>
+         </tr>
+         <tr>
+             <td colspan="2">2</td>
+         </tr>
+     </table>
 
 
 
-    <ol>
-        <li>
-            <a href="gokken.html">gok artikel</a>
-        </li>
-        <li>
-            <a href=index.html>homepage</a>
-        </li>
-    </ol>
 </body>
 </html>
