@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #595959;
+    color: white;
+    list-style: none;
+    text-align: right;
+    padding: 15px;
+}
+
+li{
+    display: inline-block;
+    padding-right: 25px;
+}
+
+ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a hover{
+    color: pink;
+}
+
