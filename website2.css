@@ -1,0 +1,93 @@
+div.wrapper, footer{
+    margin: auto;
+    width: 800px;
+    background-color: #FAC0FD ;
+    padding: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+
+nav{
+    background-color: #595959;
+    opacity: 0.6;
+    color:#FAC0FD;
+    list-style: none;
+    text-align: left;
+    padding: 9px;
+}
+
+li{
+    display: inline-block;
+    padding-right: 25px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+h1{
+    color: #737373;
+}
+
+section.appel, section.visual{
+    width: 50%;
+    float: left;
+}
+
+section.visual{
+    text-align: left;
+}
+
+img.appel{
+    width: 383px;
+}
+
+img.visual{
+
+
+
+    width: 321px;
+}
+
+img.football{
+    width: 242px;
+}
+
+img.original{
+    width: 242px;
+}
+
+img.school1{
+    width: 242px;
+}
+
+article{
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+article:last-child{
+    padding-right: 0px;
+}
+
+footer{
+    background-color: #595959;
+    color: white;
+    opacity: 0.6;
+}
+
+footer a{
+    color: white;
+}
+
+
+
+
+
+
