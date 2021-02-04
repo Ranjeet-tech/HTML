@@ -1,0 +1,47 @@
+div.wrapper{
+    margin: auto;
+    width: 800px;
+    background-color: #FAC0FD ;
+    padding: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+
+nav{
+    background-color: #595959;
+    opacity: 0.6;
+    color:#FAC0FD;
+    list-style: none;
+    text-align: left;
+    padding: 9px;
+}
+li{
+    display: inline-block;
+    padding-right: 25px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+form ul{
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+form ul li{
+    padding: 10px;
+    display: block;
+}
+
+form ul li input{
+    position: absolute;
+    left: 250px;
+}
+

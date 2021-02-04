@@ -1,0 +1,65 @@
+div.wrapper, footer{
+    margin: auto;
+    width: 800px;
+    background-color: #FAC0FD ;
+    padding: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+
+nav{
+    background-color: #595959;
+    opacity: 0.6;
+    color:#FAC0FD;
+    list-style: none;
+    text-align: left;
+    padding: 9px;
+}
+
+li{
+    display: inline-block;
+    padding-right: 25px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+div.form-group1{
+    padding: 10px;
+    display: block;
+}
+
+input{
+    position: absolute;
+    left: 250px;
+}
+
+input.submit{
+    position: absolute;
+    left: 350px;
+}
+
+input.reset{
+    position: absolute;
+    left: 250px;
+}
+
+select{
+    position: absolute;
+    left: 250px;
+    width: 150px;
+}
+
+textarea{
+    position: absolute;
+    left: 250px;
+    width: 300px;
+}
+
+
